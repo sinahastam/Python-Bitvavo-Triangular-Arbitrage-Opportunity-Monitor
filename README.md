@@ -31,6 +31,8 @@ bitvavo = Bitvavo({
   'DEBUGGING': True
 })
 ```
+Run testApi.py
+Wait for opportunities to occur
 
 ## Additional Information
 Minimum profit should be changed in the file. NOTE: Fees are not included in min_profit -> so real profit = min_profit - taker_fee\*3
