@@ -31,7 +31,7 @@ bitvavo = Bitvavo({
   'DEBUGGING': True
 })
 ```
-Run testApi.py
+Run testApi.py  
 Wait for opportunities to occur
 
 ## Additional Information
