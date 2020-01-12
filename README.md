@@ -7,6 +7,7 @@ Here are some examples of the strategy which the bot uses:
 Buy BTC at X -> Buy ETH at X -> Sell ETH for X€ = profit
 Buy ETH at X€ -> Sell ETH at X -> Sell BTC for X€ = profit
 ...
+...
 ```
 
 This project is using the python wrapper for the Bitvavo API.
@@ -20,7 +21,7 @@ pip install python-bitvavo-api
 
 ### Getting started
 
-The API key and secret are required for private calls and optional for public calls.
+The API key and secret are required. Replace it in the file. [HERE](https://github.com/sinahastam/Python-Bitvavo-Triangular-Arbitrage-Opportunity-Monitor/blob/master/python_bitvavo_api/testApi.py#L368)
 ```python
 from python_bitvavo_api.bitvavo import Bitvavo
 bitvavo = Bitvavo({ 
