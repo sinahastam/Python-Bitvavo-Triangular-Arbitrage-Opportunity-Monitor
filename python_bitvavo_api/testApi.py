@@ -2707,7 +2707,7 @@ def callback(response):
 
 
   #Calculate arbitrage profits (triangular)
-  min_profit = 1 #minimum profit required to show print NOTE: Fees are not included in min_profit -> so real profit = min_profit - taker_fee*3
+  min_profit = 0.10 #minimum profit required to show print NOTE: Fees are not included in min_profit -> so real profit = min_profit - taker_fee*3
 
   #ETH
   arb1_profitA = safe_division((currETHEURBid - (currETHBTCAsk*currBTCEURAsk))*100.0,currETHBTCAsk*currBTCEURAsk)
